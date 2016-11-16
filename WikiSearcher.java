@@ -1,4 +1,3 @@
-
 package com.flatironschool.javacs;
 
 import java.io.IOException;
@@ -88,5 +87,3 @@ public static void main(String[] args) throws IOException {
                 search5.printIDF();
 }
 }
-
-
