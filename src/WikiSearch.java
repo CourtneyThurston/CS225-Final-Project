@@ -1,5 +1,3 @@
-package com.flatironschool.javacs;
-
 import java.io.IOException;
 import java.util.Collections;
 import java.util.Comparator;
@@ -305,7 +303,8 @@ public class WikiSearch {
 		
 		// make a JedisIndex
 		Jedis jedis = JedisMaker.make();
-		JedisIndex index = new JedisIndex(jedis); 
+		// JedisIndex index = new JedisIndex(jedis);
+		new JedisIndex(jedis);
 		
 	}
 }

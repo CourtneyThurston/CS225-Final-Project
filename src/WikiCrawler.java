@@ -1,5 +1,3 @@
-package com.flatironschool.javacs;
-
 import java.io.IOException;
 import java.util.LinkedList;
 import java.util.Map;
@@ -14,7 +12,7 @@ import redis.clients.jedis.Jedis;
 
 public class WikiCrawler {
         // keeps track of where we started
-        private final String source;
+        //private final String source;
 
         // the index where the results go
         private JedisIndex index;
@@ -32,7 +30,7 @@ public class WikiCrawler {
          * @param index
          */
 	public WikiCrawler(String source, JedisIndex index) {
-                this.source = source;
+                //this.source = source;
                 this.index = index;
                 queue.offer(source);
         }
